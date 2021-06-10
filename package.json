@@ -1,22 +1,25 @@
 {
-  "name": "cli-wq-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/king-king/cli-wq-test.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/king-king/cli-wq-test/issues"
-  },
-  "homepage": "https://github.com/king-king/cli-wq-test#readme"
+    "name": "cli-wq-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "cli-test": "./bin/cli-run.js"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/king-king/cli-wq-test.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/king-king/cli-wq-test/issues"
+    },
+    "homepage": "https://github.com/king-king/cli-wq-test#readme"
 }
